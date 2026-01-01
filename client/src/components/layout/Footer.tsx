@@ -4,9 +4,9 @@ export function Footer() {
   return (
     <footer className="bg-[#1A0F0A] text-[#D4A574] py-16 px-4 border-t border-[#3D2317]">
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center space-y-8">
-        
+
         <h2 className="text-4xl font-heading text-[#F5E6D3]">The Roasted Bean</h2>
-        
+
         <div className="flex gap-6">
           <a href="#" className="p-3 bg-[#2C1810] rounded-full hover:bg-[#D4A574] hover:text-[#2C1810] transition-colors">
             <Instagram className="w-5 h-5" />
@@ -25,9 +25,9 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-[#3D2317] w-full max-w-md">
-           <p className="text-xs text-[#F5E6D3]/30 uppercase tracking-widest">
-             Website by Replit Design
-           </p>
+          <p className="text-xs text-[#F5E6D3]/30 uppercase tracking-widest">
+            Website by <a href="https://github.com/MizanShaikh19" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4A574] transition-colors">Mizan Shaikh</a>
+          </p>
         </div>
       </div>
     </footer>

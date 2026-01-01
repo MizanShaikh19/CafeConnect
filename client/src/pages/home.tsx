@@ -6,6 +6,7 @@ import { Menu } from "@/components/sections/Menu";
 import { VisitUs } from "@/components/sections/VisitUs";
 import { InstagramWall } from "@/components/sections/InstagramWall";
 import { Footer } from "@/components/layout/Footer";
+import { CreatorBadge } from "@/components/layout/CreatorBadge";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <VisitUs />
       <InstagramWall />
       <Footer />
+      <CreatorBadge />
     </div>
   );
 }
