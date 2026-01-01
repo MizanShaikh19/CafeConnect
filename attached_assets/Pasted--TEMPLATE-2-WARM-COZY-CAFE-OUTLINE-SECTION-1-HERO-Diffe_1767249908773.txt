@@ -1,0 +1,99 @@
+**TEMPLATE 2: WARM/COZY CAFE - OUTLINE:**
+
+---
+
+## **SECTION 1: HERO (Different from Template 1)**
+- Full-screen background image (darker overlay)
+- Center-aligned cafe name (script/handwritten font)
+- Tagline below
+- "Explore Menu" + "Visit Us" (2 buttons, not 1)
+
+---
+
+## **SECTION 2: WELCOME MESSAGE**
+- Short story about cafe (3-4 lines)
+- Owner quote: "We believe in..."
+- Warm background (beige/cream)
+- Handwritten font for quote
+
+---
+
+## **SECTION 3: SIGNATURE DRINKS**
+- 3-4 featured items (not full menu)
+- Large image + description for each
+- "Our bestseller is..." vibe
+- Horizontal cards (not grid)
+
+---
+
+## **SECTION 4: GALLERY + ATMOSPHERE**
+- Split: Photos on left, text on right
+- "A cozy space to..." description
+- 4 images in 2x2 grid
+- Desktop: side-by-side, Mobile: stacked
+
+---
+
+## **SECTION 5: FULL MENU**
+- Traditional menu board style
+- Categories: Coffee | Tea | Food
+- Simple list (not fancy cards)
+- Prices aligned right
+
+---
+
+## **SECTION 6: VISIT US**
+- Map + hours + contact (all together)
+- "We're open daily" heading
+- Phone + WhatsApp buttons
+- Directions link
+
+---
+
+## **SECTION 7: INSTAGRAM WALL**
+- "Share your moments #[CafeName]"
+- Instagram feed preview
+- Follow button
+
+---
+
+## **SECTION 8: FOOTER**
+- Social icons
+- Address + contact
+- Your ad (smaller than Template 1)
+
+---
+
+## **KEY DIFFERENCES FROM TEMPLATE 1:**
+
+| Feature | Template 1 (Modern) | Template 2 (Cozy) |
+|---------|---------------------|-------------------|
+| Hero | Clean, bright | Dark overlay, warm |
+| Layout | Grid-based | Split sections |
+| Menu | Cards with images | Traditional list |
+| Colors | White/bright | Beige/brown/warm |
+| Fonts | Sans-serif, bold | Script + serif mix |
+| Vibe | Instagram trendy | Classic coffee shop |
+
+---
+
+## **COLOR PALETTE:**
+
+**Primary:** #6B4423 (dark brown)
+**Secondary:** #F5E6D3 (cream)
+**Accent:** #D4A574 (warm tan)
+**Text:** #2C1810 (dark brown)
+
+---
+
+## **FONTS:**
+
+**Headings:** Dancing Script or Pacifico (handwritten)
+**Body:** Merriweather or Georgia (serif)
+**Menu:** Courier New (classic)
+
+---
+
+**BUILD THIS JAN 1 (6 HOURS). REUSE TEMPLATE 1 STRUCTURE, JUST CHANGE DESIGN/LAYOUT.**
+
+Start now? 🔥
