@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export function Menu() {
   const categories = [
     {
@@ -31,33 +33,57 @@ export function Menu() {
   ];
 
   return (
-    <section id="menu" className="py-24 bg-[#FFF8F0] px-4">
-      <div className="max-w-4xl mx-auto bg-white p-8 md:p-16 shadow-xl border border-[#F5E6D3]">
-        <div className="text-center mb-16">
-          <h2 className="text-6xl font-heading text-[#6B4423] mb-4">Menu</h2>
+    <section id="menu" className="py-32 bg-[#FDFBF7] px-4 relative">
+      {/* Decorative grain texture/overlay could be here */}
+      <div className="max-w-4xl mx-auto backdrop-blur-md bg-white/60 p-8 md:p-20 shadow-2xl border border-[#F5E6D3] relative z-10 rounded-3xl">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-20"
+        >
+          <h2 className="text-7xl font-heading text-[#6B4423] mb-4">The Menu</h2>
           <div className="h-px w-full bg-[#D4A574]/40 max-w-xs mx-auto"></div>
-        </div>
+          <p className="mt-4 font-serif text-[#D4A574] italic">Hand-crafted beverages and artisan bites</p>
+        </motion.div>
 
-        <div className="space-y-16">
+        <div className="space-y-20">
           {categories.map((cat, idx) => (
-            <div key={idx}>
-              <h3 className="text-3xl font-heading text-[#6B4423] mb-8 border-b-2 border-[#F5E6D3] inline-block pr-8">
-                {cat.title}
+            <motion.div 
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+            >
+              <h3 className="text-4xl font-heading text-[#6B4423] mb-10 flex items-center gap-4">
+                <span className="shrink-0">{cat.title}</span>
+                <div className="h-px bg-[#F5E6D3] flex-grow" />
               </h3>
-              <ul className="space-y-6">
+              <ul className="space-y-10">
                 {cat.items.map((item, itemIdx) => (
-                  <li key={itemIdx} className="group">
-                    <div className="flex items-baseline justify-between font-mono text-lg md:text-xl text-[#2C1810]">
-                      <span className="font-bold tracking-tight">{item.name}</span>
-                      <div className="flex-grow border-b border-dotted border-[#D4A574] mx-4 opacity-50 relative top-[-6px]"></div>
-                      <span>{item.price}</span>
+                  <motion.li 
+                    key={itemIdx} 
+                    whileHover={{ x: 10 }}
+                    className="group cursor-default"
+                  >
+                    <div className="flex items-baseline justify-between font-mono text-xl md:text-2xl text-[#2C1810]">
+                      <span className="font-bold tracking-tight group-hover:text-[#6B4423] transition-colors">{item.name}</span>
+                      <div className="flex-grow border-b border-dotted border-[#D4A574]/40 mx-4 opacity-50 relative top-[-6px]"></div>
+                      <span className="text-[#D4A574]">{item.price}</span>
                     </div>
-                    <p className="font-serif text-sm text-[#6B4423]/70 mt-1 italic">{item.desc}</p>
-                  </li>
+                    <p className="font-serif text-base text-[#6B4423]/70 mt-2 italic max-w-md">{item.desc}</p>
+                  </motion.li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           ))}
+        </div>
+        
+        <div className="mt-20 text-center">
+           <p className="font-serif text-[#6B4423]/50 italic text-sm">
+             * Please inform us of any allergies before ordering.
+           </p>
         </div>
       </div>
     </section>
