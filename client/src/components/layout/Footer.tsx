@@ -5,6 +5,7 @@ export function Footer() {
     <footer className="bg-[#1A0F0A] text-[#D4A574] py-16 px-4 border-t border-[#3D2317]">
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center space-y-8">
 
+        <img src="/logo.png" alt="The Roasted Bean Logo" className="w-16 h-16 mx-auto rounded-full border-2 border-[#D4A574]/30" />
         <h2 className="text-4xl font-heading text-[#F5E6D3]">The Roasted Bean</h2>
 
         <div className="flex gap-6">
