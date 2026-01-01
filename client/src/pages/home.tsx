@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/Hero";
 import { Welcome } from "@/components/sections/Welcome";
 import { SignatureDrinks } from "@/components/sections/SignatureDrinks";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { Gallery } from "@/components/sections/Gallery";
 import { Menu } from "@/components/sections/Menu";
 import { VisitUs } from "@/components/sections/VisitUs";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Welcome />
       <SignatureDrinks />
+      <Testimonials />
       <Gallery />
       <Menu />
       <VisitUs />
